@@ -1,2 +1,2 @@
-# 2S-DevConect
+# 2S-DevConnect
 Repositório criado para o desenvolvimento do Projeto DevConect.

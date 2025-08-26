@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+
+
+:root{
+    --cor-rosa-escuro-1: #825B6A;
+    --cor-rosa-escuro-2: #9D6070;
+    --cor-rosa-medio: #B39191;
+    --cor-rosa-claro: #F5DFDF;
+    --cor-branco: #FFFFFF;
+    --cor-cinza-claro: #EFEFEF;
+    --cor-preto: #000000;
+
+    --borda: 1px solid var(--cor-rosa-escuro-2);
+    --borda-arredondada: 2px;
+
+    --tamanho-fonte-G: 20px;
+    --tamanho-fonte-M: 16px;
+    --tamanho-fonte-P: 14px;
+
+}
+
+*{
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F5DFDF;
+}
+
+h1{
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+input{
+    width: 100%;
+    height: 35px;
+    border: var(--cor-cinza-claro);
+    background-color: var(--cor-cinza-claro);
+}

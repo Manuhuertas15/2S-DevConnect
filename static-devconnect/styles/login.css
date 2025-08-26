@@ -1,0 +1,111 @@
+main{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f5d5d5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main > div{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+}
+
+main > div > form > img{
+    margin-bottom: 20px;
+}
+
+#formulario{
+    background-color: var(--cor-branco);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
+    gap: 10px;
+    border-radius: var(--borda-arredondada);
+}
+
+#formulario > div{
+    width: 100%;
+}
+
+#formulario > div > label{
+    font-size: var(--tamanho-fonte-P);
+    color: var(--cor-rosa-escuro-1);
+    padding-bottom: 4px;
+}
+
+#formulario > div > input{
+    border-radius: var(--borda-arredondada);
+}
+
+main > div > form > a{
+    font-size: var(--tamanho-fonte-P);
+}
+
+.formulario-botao-rosa{
+    width: 100%;
+}
+
+#formulario > p{
+    text-transform:uppercase;
+    font-size: var(--tamanho-fonte-P);
+    color: var(--cor-rosa-escuro-1);
+}
+
+#cadastro{
+    height: 60px;
+    background-color: var(--cor-branco);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--borda-arredondada);
+}
+
+.estilo-formulario{
+    border: var(--borda);
+    width: 100%;
+    max-width: 340px;
+    background-color: var(--cor-branco);
+}
+
+.informacao-aplicativo{
+    font-size: var(--tamanho-fonte-P);
+    color: var(--cor-rosa-escuro-2);
+    font-weight: 400;
+}
+
+#secao-instalacao{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.informacao-aplicativo img{
+    width: 120px;
+    height: 40px;
+}
+
+.formulario-botao-rosa{
+    background-color: var(--cor-rosa-escuro-2);
+    border-radius: var(--borda-arredondada);
+    border: none;
+    height: 35px;
+    color: var(--cor-rosa-claro);
+    font-size: var(--tamanho-fonte-P);
+} 
+
+#formulario > a, #cadastro > p > a{
+    text-decoration: none;
+    color: var(--cor-rosa-escuro-2);
+}
+
+#cadastro > p{
+    font-size: var(--tamanho-fonte-M);
+}

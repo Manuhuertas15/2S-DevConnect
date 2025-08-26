@@ -1,0 +1,117 @@
+main{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f5d5d5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main > div{
+    /*background-color: #825B6A;*/
+    width: 90%;
+    /*height: 600px;*/
+    display: flex;
+    /*justify-content: space-around;*/
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+}
+
+main > div > form > img{
+    margin-bottom: 20px;
+}
+
+#formulario-cadastro{
+    /*height: 300px;*/
+    background-color: var(--cor-branco);
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-between;*/
+    align-items: center;
+    padding: 3%;
+    gap: 10px;
+    border-radius: var(--borda-arredondada);
+}
+
+#formulario-cadastro > div{
+    width: 100%;
+}
+#formulario-cadastro > div > label{
+    font-size: var(--tamanho-fonte-P);
+    color: var(--cor-rosa-escuro-1);
+    padding-bottom: 4px;
+}
+
+#formulario-cadastro > div > input{
+    border-radius: var(--borda-arredondada);
+}
+
+.formulario-cadastro-botao-rosa{
+    width: 100%;
+}
+
+#formulario-cadastro > p{
+    font-size: var(--tamanho-fonte-P);
+    color: var(--cor-rosa-escuro-1);
+}
+
+main > div > form > p{
+    text-align: center;
+    font-size: var(--tamanho-fonte-P);
+}
+
+#login{
+    height: 60px;
+    background-color: var(--cor-branco);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--borda-arredondada);
+    border: var(--borda);
+    width: 100%;
+    max-width: 340px;
+}
+
+.estilo-formulario-cadastro{
+    border: var(--borda);
+    width: 100%;
+    max-width: 340px;
+    background-color: var(--cor-branco);
+}
+
+.formulario-cadastro-botao-rosa{
+    background-color: var(--cor-rosa-escuro-2);
+    border-radius: var(--borda-arredondada);
+    border: none;
+    height: 35px;
+    color: var(--cor-rosa-claro);
+    font-size: var(--tamanho-fonte-P);
+} 
+
+#formulario-cadastro > a, #login > p > a{
+    text-decoration: none;
+    color: var(--cor-rosa-escuro-2);
+}
+
+#login > p{
+    font-size: var(--tamanho-fonte-P);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.upload{
+    display: none;
+}
+
+#x{
+    display: inline-block;
+    background-color: #F5DFDF;
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    padding: 10px;
+    border-radius: var(--borda-arredondada);
+}

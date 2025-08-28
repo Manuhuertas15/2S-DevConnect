@@ -1,0 +1,124 @@
+main{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f5d5d5;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+
+.container-flex-publi{
+    background-color: #f5d5d5;
+    width: 90%;
+    max-width: 850px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#storys{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    overflow-x: scroll;
+}
+
+#storys::-webkit-scrollbar{
+    width: 0;
+}
+
+.card-story{
+    margin-left:15px;
+}
+
+.card-story > a{
+    width: 100%;
+    max-width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    gap: 5px;
+    text-decoration: none;
+}
+
+#foto-perfil-2{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+#foto-perfil-3{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+}
+
+.card-story > a > span{
+    color: var(--cor-preto);
+    font-size: var(--tamanho-fonte-P);
+    text-transform: lowercase;
+}
+
+#cadastro-publi{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+}
+
+#cadastro-publi > h2{
+    font-size: var(--tamanho-fonte-G);
+    color: var(--cor-preto);
+    font-weight: bold;
+}
+
+#cadastro-publi > form > textarea{
+    width: 100% !important;
+    height: 80px !important;
+    background-color: var(--cor-cinza-claro);
+    resize: none;
+    padding: 10px;
+    color: var(--cor-preto);
+    font-size: var(--tamanho-fonte-P);
+    /*outline: none;*/
+}
+
+.formulario-botao-rosa{
+    background-color: var(--cor-rosa-escuro-2);
+    border-radius: var(--borda-arredondada);
+    border: none;
+    width: 20% !important;
+    height: 35px;
+    color: var(--cor-rosa-claro);
+    font-size: var(--tamanho-fonte-P);
+} 
+
+.upload{
+    display: none;
+}
+
+#x{
+    display: inline-block;
+    background-color: #F5DFDF;
+    width: 100% !important;
+    height: 35px;
+    text-align: center;
+    padding: 10px;
+    border-radius: var(--borda-arredondada);
+}
+
+#botoes-publi{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 15px;
+}

@@ -68,10 +68,7 @@ main > div > form > a{
 }
 
 .estilo-formulario{
-    border: var(--borda);
-    width: 100%;
     max-width: 340px;
-    background-color: var(--cor-branco);
 }
 
 .informacao-aplicativo{
